@@ -2,5 +2,8 @@ var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
 alphabet.sort();
 console.log(alphabet);
 for (var i = 0; i < alphabet.length; i++) {
-    console.log(alphabet[i]);
+    console.log(alphabet[i] + (" ".repeat(alphabet.length -i )))
 }
+
+
+// console.log(' '.repeat(treeHeight-i) + treeCharacter.repeat(counter))
